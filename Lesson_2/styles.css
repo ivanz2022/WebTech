@@ -1,0 +1,27 @@
+body {
+    background-color: rgba(229, 226, 226, 0.853);
+    font-size: 14pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header1 {
+    font-size: 20;
+    color: black;
+}
+.header2 {
+    font-size: 16;
+    color: black;
+}
+.header3 {
+    font-size: 14;
+    color: black;
+}
+.list {
+    list-style-type: square;
+}
+.image {
+    width: 400px;
+}
+.refer {
+    font-weight: bold;
+    color: brown;
+}

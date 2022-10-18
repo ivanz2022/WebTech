@@ -1,0 +1,46 @@
+<!-- Создать страницу с рассказом о чём угодно. Например, о себе или о любимом коте.
+Страница должна содержать заголовки, абзацы, картинки, списки и ссылки. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ДЗ №2</title>
+</head>
+<body>
+    <h1 class="header1">Что такое HTML и как он работает?</h1>
+    <p>HTML (от англ. <i>HyperText Markup Language</i> — «язык гипертекстовой разметки») — <br>
+        стандартизированный язык гипертекстовой разметки документов для просмотра <br>
+        веб-страниц в браузере. Веб-браузеры получают HTML документ от сервера <br>
+        по протоколам <b>HTTP/HTTPS</b> или открывают с локального диска, далее интерпретируют <br>
+        код в интерфейс, который будет отображаться на экране монитора.</p>
+    <h2 class="header2">Текстовые блоки</h2>
+    <ol>
+        <li>h1-h6 — заголовки 1-6 уровня</li>
+        <li>p — новый абзац</li>
+        <li>br — новая строка</li>
+        <li>hr — горизонтальная линия</li>
+    </ol>
+    <h2 class="header2">Форматирование текста</h2>
+    <ul class="list">
+        <li>em — логическое ударение (обычно отображается курсивным шрифтом)</li> 
+        <li>strong — усиленное логическое ударение (обычно отображается жирным шрифтом)</li>
+        <li>i — <i>выделение текста курсивом</i></li>
+        <li>b — <b>выделение текста жирным шрифтом</b></li>
+        <li>u — <u>подчёркивание текста</u></li>
+        <li>s — <s>зачёркивание текста</s></li>
+    </ul>
+    <h2 class="header2">Вставка изображений</h2>
+    <h3 class="header3">Относительная ссылка</h3>
+        <img src="images\HTML-Basic.jpg" class="image" alt="">
+    <h3 class="header3">Абсолютная ссылка</h3>
+        <img src="https://luxe-host.ru/wp-content/uploads/0/1/7/017fe7cc351ade83013f5859603f0b13.jpeg"
+            class="image"
+            alt="">
+    <h2 class="header2">Дополнительная информация</h2>
+    <a href="https://htmlbase.ru" class="refer"> Полный справочник по HTML</a>  
+    <hr>
+</body>
+</html>
